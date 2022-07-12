@@ -5,5 +5,5 @@
     <p>Use the form below to change your password.</p>
     {{ form.as_p }}
     <p><input type="submit" value="Change"></p>
-    {% casrf_token %}
+    {% csrf_token %}
 {% endblock %}
